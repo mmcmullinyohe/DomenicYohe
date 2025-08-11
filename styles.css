@@ -97,12 +97,13 @@ ul {
 .photo {
     width: 100%;
     max-width: 500px;
-    
 }
 
-.photo__wrapper {
+.photo__list {
     display: flex;
     justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .heading {
@@ -116,6 +117,15 @@ ul {
 }
 
 .photo__container {
-    padding: 12px 12px;
-    width: calc(100%/3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 16px;
+}
+
+.photo__wrapper {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
