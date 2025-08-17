@@ -130,3 +130,16 @@ ul {
     justify-content: center;
     position: relative;
 }
+
+/*EVENTS*/
+#events {
+   background-color: #242424; 
+   height: 100vh;
+   color: white;
+}
+
+.event__heading {
+    display: flex;
+    justify-content: center;
+    padding: 124px;
+}
