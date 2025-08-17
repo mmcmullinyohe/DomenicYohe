@@ -55,6 +55,7 @@ ul {
 /*ABOUT*/
 #about {
     background-color: #242424;
+    height: 100vh;
     padding: 24px 24px;
 }
 
