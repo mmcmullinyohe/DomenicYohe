@@ -147,7 +147,7 @@ ul {
 /*Small Phones*/
 @media (max-width: 480px) {
     .title {
-    font-size: 32px;
+    font-size: 40px;
     line-height: 1;
     text-align: center;
     }
