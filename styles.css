@@ -143,3 +143,16 @@ ul {
     justify-content: center;
     padding: 124px;
 }
+
+/*Small Phones*/
+@media (max-width: 480px) {
+    .title {
+    font-size: 32px;
+    line-height: 1;
+    text-align: center;
+    }
+
+.about__para {
+    font-size: 20px;
+    }
+}
