@@ -107,6 +107,7 @@ ul {
     flex-wrap: wrap;
 }
 
+
 .heading {
     color: white;
 }
@@ -125,7 +126,7 @@ ul {
 }
 
 .photo__wrapper {
-    width: 75%;
+    width: 50%;
     display: flex;
     justify-content: center;
     position: relative;
@@ -155,4 +156,8 @@ ul {
 .about__para {
     font-size: 20px;
     }
+
+    .photo__wrapper {
+    width: 100%;
+}
 }
