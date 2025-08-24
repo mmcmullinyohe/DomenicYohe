@@ -145,6 +145,29 @@ ul {
     padding: 124px;
 }
 
+/*Photo Pages*/
+
+#photo__page {
+    background-color: #242424;
+    height: 100vh;
+    padding: 24px 24px;  
+}
+
+.photo__page--container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.photo__page--wrapper {
+   
+}
+
+.photo__page {
+    width: 100%;
+    
+}
+
 /*Small Phones*/
 @media (max-width: 480px) {
     .title {
@@ -161,3 +184,4 @@ ul {
     width: 100%;
 }
 }
+
