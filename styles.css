@@ -159,13 +159,13 @@ ul {
     justify-content: center;
 }
 
-.photo__page--wrapper {
-   
-}
-
 .photo__page {
     width: 100%;
     
+}
+
+.photo__page--large {
+    width: 500px;
 }
 
 /*Small Phones*/
