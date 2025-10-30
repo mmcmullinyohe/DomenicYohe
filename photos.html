@@ -1,61 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Domenic Photos</title>
-     <link rel="stylesheet" href="styles.css">
-    <script src="index.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Domenic Photos</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <section class="navigation">
-        <nav>
-            <div class="personal__logo">Domenic Yohe</div>
-            <ul class="nav__link--list">
-                <li class="nav__link"><a href="./index.html">Home</a></li>
-                <li class="nav__link"><a href="./photos.html">Photos</a></li>
-                <li class="nav__link"><a href="./events.html">Events</a></li>
-            </ul>
-        </nav>
-    </section>
-        <section id="photos">
-        <div class="heading__wrapper">
-            <h2 class="heading">
-                Here are some photos of me from throughout the years.
-            </h2>
-        </div>
-        <div class="photo__list">
-        <div class="photo__wrapper">
-        <figure class="photo__container">
-            <a href="./Dom_guitar_FYROK_2014.html">
-            <img src="./assets/Dom_guitar_FYROK_2014.jpg" class="photo"></a>
-        </figure>
-        </div>
-        <div class="photo__wrapper">
-        <figure class="photo__container">
-            <a href="./VA_photoshoot.html">
-            <img src="./assets/VA_photoshoot.jpg" class="photo"></a>
-        </figure>
-        </div>
-        <div class="photo__wrapper">
-        <figure class="photo__container">
-            <a href="./Rippers_photoshoot.html">
-            <img src="./assets/Rippers_photoshoot.jpg" class="photo"></a>
-        </figure>
-        </div>
-        <div class="photo__wrapper">
-        <figure class="photo__container">
-            <a href="./Dom_and_Tommy_FYROK_2018.html">
-            <img src="./assets/Dom_and_Tommy_FYROK_2018.jpg" class="photo"></a>
-        </figure>
-        </div>
-        <div class="photo__wrapper">
-        <figure class="photo__container">
-            <a href="./wedding_party.html">
-            <img src="./assets/wedding_party.jpg" class="photo"></a>
-        </figure>
-        </div>
+  <!-- Navigation -->
+  <section class="navigation">
+    <nav>
+      <div class="personal__logo">Domenic Yohe</div>
+      <ul class="nav__link--list">
+        <li class="nav__link"><a href="./index.html">Home</a></li>
+        <li class="nav__link"><a href="./photos.html">Photos</a></li>
+        <li class="nav__link"><a href="./events.html">Events</a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <!-- Photos Section -->
+  <section id="photos">
+    <div class="heading__wrapper">
+      <h2 class="heading">
+        Here are some photos of me from throughout the years.
+      </h2>
     </div>
-    </section>
+    <div class="photo__list">
+      <div class="photo__wrapper">
+        <figure class="photo__container">
+          <img src="./assets/Dom_guitar_FYROK_2014.jpg" class="photo" data-src="./assets/Dom_guitar_FYROK_2014.jpg" alt="Dom Guitar 2014">
+        </figure>
+      </div>
+      <div class="photo__wrapper">
+        <figure class="photo__container">
+          <img src="./assets/VA_photoshoot.jpg" class="photo" data-src="./assets/VA_photoshoot.jpg" alt="VA Photoshoot">
+        </figure>
+      </div>
+      <div class="photo__wrapper">
+        <figure class="photo__container">
+          <img src="./assets/Rippers_photoshoot.jpg" class="photo" data-src="./assets/Rippers_photoshoot.jpg" alt="Rippers Photoshoot">
+        </figure>
+      </div>
+      <div class="photo__wrapper">
+        <figure class="photo__container">
+          <img src="./assets/Dom_and_Tommy_FYROK_2018.jpg" class="photo" data-src="./assets/Dom_and_Tommy_FYROK_2018.jpg" alt="Dom and Tommy 2018">
+        </figure>
+      </div>
+      <div class="photo__wrapper">
+        <figure class="photo__container">
+          <img src="./assets/wedding_party.jpg" class="photo" data-src="./assets/wedding_party.jpg" alt="Wedding Party">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal (popup) -->
+  <div id="photoModal" class="modal">
+    <span class="close">&times;</span>
+    <img id="modalImg" class="modal-content" src="">
+    <a id="downloadLink" href="" download>
+      <button class="download-btn">Download</button>
+    </a>
+  </div>
+
+  <!-- Link your JS -->
+  <script src="index.js"></script>
 </body>
 </html>
