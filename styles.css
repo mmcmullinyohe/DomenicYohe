@@ -23,6 +23,10 @@ p {
     margin: 10px;
 }
 
+a:hover {
+    color: #848cf8;
+}
+
 /*NAVIGATION*/
 
 .navigation {
@@ -50,7 +54,6 @@ nav {
 ul {
     display: flex;
 }
-
 
 .nav__img {
     width: 100%;
@@ -175,6 +178,49 @@ ul {
   max-height: 80vh;
   border-radius: 10px;
   animation: zoomIn 0.3s ease;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #242424;
+     color: white;
+    padding: 3rem 1rem;
+}
+
+
+.footer__logo--img {
+    width: 120px;
+    height: 120px;
+    filter: invert(100%);
+    display: block;
+    margin: 0 auto 0.5rem auto;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* allows wrapping on smaller screens */
+    gap: 2rem; /* even spacing between links */
+}
+
+
+.footer__row {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__tag {
+    padding: 0 24px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.footer__tag:hover {
+    color: #848cf8; /* accent color on hover */
 }
 
 @keyframes zoomIn {
