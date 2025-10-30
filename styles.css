@@ -98,6 +98,12 @@ ul {
 .photo {
     width: 100%;
     max-width: 500px;
+    cursor: pointer;
+    transition: scale(1.03);
+}
+
+.photo:hover {
+    transform: scale(1.03);
 }
 
 .photo__list {
