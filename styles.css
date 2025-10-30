@@ -49,10 +49,16 @@ nav {
 
 .personal__logo {
     align-items: center;
-    margin: 12px;
 }
 ul {
     display: flex;
+}
+.nav__logo--img{
+     width: 70px;
+    height: auto;
+    filter: invert(100%);
+    display: block;
+    margin: 0 auto 0.5rem auto;
 }
 
 .nav__img {
