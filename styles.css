@@ -19,6 +19,10 @@ li {
     margin: 12px;
 }
 
+p {
+    margin: 10px;
+}
+
 /*NAVIGATION*/
 
 .navigation {
@@ -86,6 +90,7 @@ ul {
 
 .about__para--wrapper{
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
