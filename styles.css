@@ -98,12 +98,14 @@ ul {
 .photo {
     width: 100%;
     max-width: 500px;
+    border-radius: 10px;
     cursor: pointer;
-    transition: scale(1.03);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .photo:hover {
     transform: scale(1.03);
+    box-shadow: 0 8px 16px  rgba(0, 0, 0, 0.3);
 }
 
 .photo__list {
